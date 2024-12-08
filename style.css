@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&display=swap');
+
+body {
+    margin: 0; /* Remove espaçamento padrão */
+    display: flex; /* Usa Flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Usa altura total da janela */
+    background-color: #4169E1; /* Adiciona um fundo para contraste */
+}
+
+.cartao {
+    width: 300px;
+    height: 500px;
+    display: flex;                
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;          
+    text-align: center;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);       
+}
+  
+#antonioMikael { 
+    border: solid 1%;
+    display: flex; 
+    justify-content: center;
+    background-color: #3a4149;
+    background-image: url("img/image_programacao.jpg");
+    background-repeat: no-repeat;
+    background-size: 115% 50%;
+}
+
+#antonioMikael .image{
+    width: 145px;
+    height: 145px;
+    margin-top: 150px;
+    border-radius: 80px;
+   
+}
+
+#antonioMikael .logos {
+    display: flex;                    
+    justify-content: center;         
+    gap: 20px;                           
+}
+
+#antonioMikael .image_logo_github{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#antonioMikael .image_logo_linkedin{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#antonioMikael .name{
+    color: #4169E1;
+    font-family: 'Audiowide', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+#antonioMikael .content{
+    color: #4169E1;
+    font-family: 'Anta', sans-serif;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
